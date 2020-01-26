@@ -28,6 +28,9 @@ public class FileUpload extends TestBaseClass {
         WebElement homeButton = driver.findElement(By.xpath("//a[contains(text(),'Home')]"));
         homeButton.click();
  
+        
+        
+        
     }
 
 }
