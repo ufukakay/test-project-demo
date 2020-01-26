@@ -23,4 +23,11 @@ public class FileUpload extends TestBaseClass {
         selectButton.click();
     }
 
+    @Test(dependsOnMethods = {"uploadDeletePicture"})
+    public void homePage(){
+        WebElement homeButton = driver.findElement(By.xpath("//a[contains(text(),'Home')]"));
+        homeButton.click();
+
+    }
+
 }
