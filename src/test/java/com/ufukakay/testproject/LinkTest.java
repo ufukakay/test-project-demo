@@ -18,7 +18,7 @@ public class LinkTest extends TestBaseClass {
 
     @Test
     public void dataUrlTest() {
-
+        driver.get("https://www.hepsiburada.com/");
         String currentUrl = driver.getCurrentUrl();
         Assert.assertEquals(currentUrl,"https://www.hepsiburada.com/");
 
