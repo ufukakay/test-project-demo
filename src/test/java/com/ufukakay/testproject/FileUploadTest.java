@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
-public class FileUpload extends TestBaseClass {
+public class FileUploadTest extends TestBaseClass {
 
 
     @Test
